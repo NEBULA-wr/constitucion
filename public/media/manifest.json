@@ -1,0 +1,156 @@
+{
+  "version": "1.0.0",
+  "appName": "Constitución Dominicana — Experiencia Digital",
+  "lastUpdated": "2026-11-05T03:00:00.000Z",
+  "media": [
+    {
+      "id": "vid-1",
+      "type": "video",
+      "title": "Video 1 — Portada Cinematográfica y Monumento",
+      "category": "hero",
+      "filename": "1.mp4",
+      "path": "/1.mp4",
+      "fallbackPath": "/media/videos/1.mp4",
+      "assignedTo": "hero",
+      "loop": true,
+      "muted": true,
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "vid-2",
+      "type": "video",
+      "title": "Video 2 — Palacio Nacional y Maqueta 3D",
+      "category": "powers",
+      "filename": "2.mp4",
+      "path": "/2.mp4",
+      "fallbackPath": "/media/videos/2.mp4",
+      "assignedTo": "powers",
+      "loop": true,
+      "muted": true,
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "vid-3",
+      "type": "video",
+      "title": "Video 3 — Tribunal Constitucional y Arena",
+      "category": "game",
+      "filename": "3.mp4",
+      "path": "/3.mp4",
+      "fallbackPath": "/media/videos/3.mp4",
+      "assignedTo": "game",
+      "loop": true,
+      "muted": true,
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "img-1",
+      "type": "image",
+      "title": "1.png — Palacio Nacional de la República Dominicana",
+      "category": "powers",
+      "filename": "1.png",
+      "path": "/1.png",
+      "fallbackPath": "/media/images/1.png",
+      "assignedTo": "powers-executive",
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "img-2",
+      "type": "image",
+      "title": "2.png — Congreso Nacional (Senado y Cámara de Diputados)",
+      "category": "powers",
+      "filename": "2.png",
+      "path": "/2.png",
+      "fallbackPath": "/media/images/2.png",
+      "assignedTo": "powers-legislative",
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "img-3",
+      "type": "image",
+      "title": "3.png — Suprema Corte y Tribunal Constitucional",
+      "category": "powers",
+      "filename": "3.png",
+      "path": "/3.png",
+      "fallbackPath": "/media/images/3.png",
+      "assignedTo": "powers-judicial",
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "img-4",
+      "type": "image",
+      "title": "4.png — Constitución de San Cristóbal de 1844",
+      "category": "history",
+      "filename": "4.png",
+      "path": "/4.png",
+      "fallbackPath": "/media/images/4.png",
+      "assignedTo": "timeline-1844",
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "img-5",
+      "type": "image",
+      "title": "5.png — Reforma Constitucional 2024",
+      "category": "history",
+      "filename": "5.png",
+      "path": "/5.png",
+      "fallbackPath": "/media/images/5.png",
+      "assignedTo": "timeline-2024",
+      "dateAdded": "2026-11-05"
+    },
+    {
+      "id": "audio-1",
+      "type": "audio",
+      "title": "Audio 1 — Himno y Tema Constitucional Dominicano (audio 1.mp3)",
+      "category": "anthem",
+      "filename": "1.mp3",
+      "path": "/1.mp3",
+      "fallbackPath": "/media/audio/1.mp3",
+      "assignedTo": "ambient-music",
+      "duration": "60s",
+      "dateAdded": "2026-11-05"
+    }
+  ],
+  "sectionAssignments": {
+    "hero": {
+      "mediaId": "vid-1",
+      "overlayOpacity": 0.4,
+      "overlayColor": "#050B14",
+      "playbackRate": 1.0,
+      "effect": "vignette-cinematic"
+    },
+    "history": {
+      "mediaId": "vid-2",
+      "overlayOpacity": 0.45,
+      "overlayColor": "#050B14",
+      "playbackRate": 1.0,
+      "effect": "vignette-cinematic"
+    },
+    "powers": {
+      "mediaId": "vid-2",
+      "overlayOpacity": 0.4,
+      "overlayColor": "#002F6C",
+      "playbackRate": 1.0,
+      "effect": "monumental-blue"
+    },
+    "rights": {
+      "mediaId": "vid-3",
+      "overlayOpacity": 0.45,
+      "overlayColor": "#050B14",
+      "playbackRate": 1.0,
+      "effect": "golden-glow"
+    },
+    "game": {
+      "mediaId": "vid-3",
+      "overlayOpacity": 0.4,
+      "overlayColor": "#050B14",
+      "playbackRate": 1.0,
+      "effect": "game-atmosphere"
+    }
+  },
+  "soundSettings": {
+    "ambientMusicVolume": 0.4,
+    "sfxVolume": 0.6,
+    "isMuted": false,
+    "selectedTrackId": "audio-1"
+  }
+}

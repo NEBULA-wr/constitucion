@@ -1,0 +1,6 @@
+{
+  "name": "Constitución Dominicana — Experiencia Digital",
+  "description": "Plataforma cinematográfica, interactiva y 3D de la Constitución de la República Dominicana con rompecabezas patrio y videojuego Misión Constitución.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

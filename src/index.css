@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --dr-blue: #002F6C;
+    --dr-red: #CE1126;
+    --dr-gold: #E5A93C;
+    --dr-gold-light: #FCE29C;
+    --dr-turquoise: #00A3B4;
+    --dr-cream: #FAF6EF;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-monumental {
+    font-family: 'Cinzel', serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom cinematic glow and gradients */
+.bg-dr-gradient {
+  background: linear-gradient(135deg, rgba(0, 47, 108, 0.95) 0%, rgba(5, 11, 20, 0.98) 50%, rgba(206, 17, 38, 0.9) 100%);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #FFF2B2 0%, #E5A93C 50%, #B87326 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF6D1 0%, #F5C767 40%, #D88D22 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-dr-gradient {
+  background: linear-gradient(135deg, #3B82F6 0%, #FFFFFF 50%, #EF4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle cinematic grain texture overlay */
+.cinematic-vignette {
+  box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.85);
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050B14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+  border: 1px solid rgba(229, 169, 60, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CE1126;
+}
